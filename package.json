@@ -1,0 +1,19 @@
+{
+  "name": "dm-tool-rest-api-node",
+  "version": "1.0.0",
+  "description": "RESTful api for DM Tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielFerraz/dm-tool-rest-api-node.git"
+  },
+  "author": "Gabriel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GabrielFerraz/dm-tool-rest-api-node/issues"
+  },
+  "homepage": "https://github.com/GabrielFerraz/dm-tool-rest-api-node#readme"
+}
