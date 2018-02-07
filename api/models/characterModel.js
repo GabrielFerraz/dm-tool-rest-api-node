@@ -20,35 +20,37 @@ var CharacterSchema = new Schema({
         }]
     },
     xp: {
-        type: number,
+        type: Number,
         default: 0
     },
     level: {
-        type: number,
+        type: Number,
         default: 1
     },
     str: {
-        type: number,
+        type: Number,
         default: 1
     },
     dec: {
-        type: number,
+        type: Number,
         default: 1
     },
     con: {
-        type: number,
+        type: Number,
         default: 1
     },
     int: {
-        type: number,
+        type: Number,
         default: 1
     },
     wis: {
-        type: number,
+        type: Number,
         default: 1
     },
     cha: {
-        type: number,
+        type: Number,
         default: 1
     }
-})
+});
+
+module.exports = mongoose.model('Characters', CharacterSchema);

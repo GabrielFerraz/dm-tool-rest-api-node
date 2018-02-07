@@ -8,7 +8,7 @@ module.exports = function(app) {
     .post(character.create_a_char);
 
 
-  app.route('/characters/:characterId')
+  app.route('/characters/:charId')
     .get(character.read_a_char)
     .put(character.update_a_char)
     .delete(character.delete_a_char);
