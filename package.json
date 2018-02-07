@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/GabrielFerraz/dm-tool-rest-api-node/issues"
   },
-  "homepage": "https://github.com/GabrielFerraz/dm-tool-rest-api-node#readme"
+  "homepage": "https://github.com/GabrielFerraz/dm-tool-rest-api-node#readme",
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
