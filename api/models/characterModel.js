@@ -19,6 +19,12 @@ var CharacterSchema = new Schema({
             enum: ['Male', 'Female']
         }]
     },
+    race: {
+        type: [{
+            type: String,
+            enum: ['Human', 'Elf', 'Dwarf', 'Halfling']
+        }]
+    },
     xp: {
         type: Number,
         default: 0
