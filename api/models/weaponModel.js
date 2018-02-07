@@ -3,33 +3,15 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var WeaponSchema = new Schema({
-    name: {
-        type: String
-    },
-    price: {
-        type: Number
-    },
-    damageType: {
-        type: String
-    },
-    type: {
-        type: String
-    },
-    range: {
-        type: String
-    },
-    hands: {
-        type: String
-    },
-    damage: {
-        type: String
-    },
-    critRange: {
-        type: String
-    },
-    critModifier: {
-        type: Number
-    }
+    name: String,
+    price: Number,
+    damageType: String,
+    type: String,
+    range: String,
+    hands: String,
+    damage: String,
+    critRange: String,
+    critModifier: Number
 });
 
 module.exports = mongoose.model('Weapons', WeaponSchema);

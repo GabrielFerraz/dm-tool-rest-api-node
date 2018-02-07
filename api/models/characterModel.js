@@ -29,27 +29,27 @@ var CharacterSchema = new Schema({
     },
     str: {
         type: Number,
-        default: 1
+        default: 10
     },
     dec: {
         type: Number,
-        default: 1
+        default: 10
     },
     con: {
         type: Number,
-        default: 1
+        default: 10
     },
     int: {
         type: Number,
-        default: 1
+        default: 10
     },
     wis: {
         type: Number,
-        default: 1
+        default: 10
     },
     cha: {
         type: Number,
-        default: 1
+        default: 10
     }
 });
 
