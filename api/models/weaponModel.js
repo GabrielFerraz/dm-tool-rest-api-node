@@ -9,6 +9,9 @@ var WeaponSchema = new Schema({
     price: {
         type: Number
     },
+    damageType: {
+        type: String
+    },
     type: {
         type: String
     },
@@ -21,8 +24,11 @@ var WeaponSchema = new Schema({
     damage: {
         type: String
     },
-    crit: {
+    critRange: {
         type: String
+    },
+    critModifier: {
+        type: Number
     }
 });
 
